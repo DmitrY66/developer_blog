@@ -1,0 +1,28 @@
+.main
+  padding: 10rem 0 8rem $sidebar-width
+
+  @include breakpoint($tablet-bp)
+    padding: 7rem 0 5rem
+
+// ==================================
+::-webkit-scrollbar
+  width: 6px
+  height: 6px
+
+::-webkit-scrollbar-thumb
+  background: #2a3036
+  border: 0px none #6b6868
+
+::-webkit-scrollbar-thumb:hover
+  background: lighten(#2a3036, 16%)
+
+::-webkit-scrollbar-thumb:active
+  background: lighten(#2a3036, 16%)
+
+::-webkit-scrollbar-track
+  background: #000000
+
+::-webkit-scrollbar-corner
+  background: transparent
+// ==================================
+
